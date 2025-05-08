@@ -1,0 +1,22 @@
+title: Jetstream2 MongoDB Project
+description: |
+  This project demonstrates setting up MongoDB on Jetstream2 using Docker, 
+  loading a real-world dataset (OpenFlights airports.csv), and executing data ingestion and queries using PyMongo.
+authors:
+  - name: Khushi Jhanwar
+    affiliation: Indiana University Bloomington
+infrastructure:
+  platform: Jetstream2
+  flavor: m3.tiny (Mongo VM), m3.small (Analytics VM)
+  OS: Ubuntu 22.04
+tools:
+  - Docker
+  - MongoDB
+  - Python 3.12
+  - pandas
+  - pymongo
+dataset:
+  source: https://github.com/jpatokal/openflights
+  file: airports.dat
+license: MIT
+repository: https://github.com/khushijhanwar/jetstream2-mongo-project
